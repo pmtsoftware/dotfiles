@@ -16,6 +16,8 @@ Plug 'fladson/vim-kitty', { 'branch': 'main' }
 
 Plug 'neovimhaskell/haskell-vim'
 
+Plug 'edwinb/idris2-vim'
+
 Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
