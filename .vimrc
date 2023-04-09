@@ -27,6 +27,9 @@ nnoremap <C-p> :Files .<CR>
 
 call plug#end()
 
+set runtimepath+=~/.vim/plugged/LanguageClient-neovim
+let g:LanguageClient_serverCommands = { 'haskell': ['haskell-language-server-wrapper', '--lsp'] }
+
 set termguicolors
 colorscheme dracula
 
