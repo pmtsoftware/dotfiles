@@ -30,3 +30,15 @@ call plug#end()
 set termguicolors
 colorscheme dracula
 
+set nu " line numbers
+set rnu " relative line numbering
+
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set smartcase
+
+set splitbelow
+set splitright
+
