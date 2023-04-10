@@ -19,6 +19,8 @@ Plug 'neovimhaskell/haskell-vim'
 
 Plug 'edwinb/idris2-vim'
 
+Plug 'godlygeek/tabular'
+
 Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
