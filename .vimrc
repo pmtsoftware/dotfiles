@@ -1,6 +1,7 @@
 call plug#begin()
 
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'rakr/vim-one'
 
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
@@ -27,11 +28,14 @@ nnoremap <C-p> :Files .<CR>
 
 call plug#end()
 
+let g:airline_theme='one'
+
 set runtimepath+=~/.vim/plugged/LanguageClient-neovim
 let g:LanguageClient_serverCommands = { 'haskell': ['haskell-language-server-wrapper', '--lsp'] }
 
 set termguicolors
-colorscheme dracula
+colorscheme one
+set background=light
 
 set nu " line numbers
 set rnu " relative line numbering
