@@ -49,6 +49,8 @@ set smartcase
 set splitbelow
 set splitright
 
+set signcolumn=yes
+
 let mapleader=" "
 
 " fzf
@@ -56,6 +58,7 @@ nnoremap <C-p> :Files .<CR>
 
 " haskell language server
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
+nnoremap <F1> :call LanguageClient#explainErrorAtPoint()<CR>
 map <Leader>lk :call LanguageClient#textDocument_hover()<CR>
 map <Leader>lg :call LanguageClient#textDocument_definition()<CR>
 map <Leader>lr :call LanguageClient#textDocument_rename()<CR>
