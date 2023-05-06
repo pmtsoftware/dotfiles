@@ -1,7 +1,6 @@
 set my_pass = "`gpg --batch -q --decrypt ~/.config/neomutt/account.txt`"
 set my_user = "przemek@pmtsoftware.eu"
 
-# set folder      = imaps://$my_user@s144.cyber-folks.pl:993/
 set folder      = imaps://s144.cyber-folks.pl:993/
 set imap_user   = $my_user
 set imap_pass   = $my_pass
