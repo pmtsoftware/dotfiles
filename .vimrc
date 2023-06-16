@@ -28,7 +28,7 @@ let g:airline_theme='one'
 
 set termguicolors
 colorscheme one
-set background=light
+set background=dark
 
 set nu " line numbers
 set rnu " relative line numbering
