@@ -22,6 +22,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'sheerun/vim-polyglot'
 
+Plug 'honza/vim-snippets'
+
 call plug#end()
 
 let g:airline_theme='one'
