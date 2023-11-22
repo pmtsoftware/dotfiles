@@ -24,6 +24,8 @@ Plug 'sheerun/vim-polyglot'
 
 Plug 'honza/vim-snippets'
 
+Plug 'easymotion/vim-easymotion'
+
 call plug#end()
 
 let g:airline_theme='one'
@@ -143,4 +145,17 @@ nmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)
 
 " Run the Code Lens action on the current line
 nmap <leader>cl  <Plug>(coc-codelens-action)
+
+" easymotion config
+let g:EasyMotion_do_mapping = 0 " Disable default mappings
+
+" `s{char}{char}{label}`
+nmap s <Plug>(easymotion-overwin-f2)
+
+" Turn on case-insensitive feature
+let g:EasyMotion_smartcase = 1
+
+" JK motions: Line motions
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
 
