@@ -2243,6 +2243,6 @@ map kitty_mod+enter new_window_with_cwd
 
 
 # BEGIN_KITTY_THEME
-# Dark One Nuanced
+# Monokai Classic
 include current-theme.conf
 # END_KITTY_THEME
