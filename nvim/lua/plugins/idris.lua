@@ -27,6 +27,7 @@ return {
             end,
         },
         code_action_post_hook = function(_) vim.cmd('silent write') end,
+        autostart_semantic = true,
     },
   },
 }
