@@ -26,6 +26,8 @@ Plug 'honza/vim-snippets'
 
 Plug 'easymotion/vim-easymotion'
 
+Plug 'lervag/vimtex'
+
 call plug#end()
 
 let g:airline_theme='one'
