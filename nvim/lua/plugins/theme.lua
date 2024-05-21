@@ -1,9 +1,10 @@
 return {
     { "navarasu/onedark.nvim" },
+    { "tanvirtin/monokai.nvim" },
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "onedark",
+            colorscheme = "monokai_soda",
         },
     },
 }
