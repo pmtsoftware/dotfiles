@@ -1,11 +1,17 @@
 return {
-    { "navarasu/onedark.nvim" },
+    {
+        "navarasu/onedark.nvim",
+        opts = {
+            style = 'darker',
+        },
+    },
     { "tanvirtin/monokai.nvim" },
     { "pgdouyon/vim-yin-yang" },
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "monokai_pro",
+            -- colorscheme = "monokai_pro",
+            colorscheme = "onedark",
         },
     },
 }
