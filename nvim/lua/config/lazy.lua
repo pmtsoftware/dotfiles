@@ -36,7 +36,7 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "monokai_pro", "habamax" } },
+  install = { colorscheme = { "monokai", "habamax" } },
   checker = { 
     enabled = true,
     notify = false,
