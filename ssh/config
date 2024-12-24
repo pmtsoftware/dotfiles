@@ -2,3 +2,11 @@ Host fedora1
     HostName 70.34.252.77
     User vchainer
 
+Host atlas
+    HostName 192.168.0.10
+    User przemek
+
+Host horyzont
+    HostName 146.120.214.62
+    User przemek
+
