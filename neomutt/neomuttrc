@@ -1,7 +1,7 @@
 set my_pass = "`gpg --batch -q --decrypt ~/.config/neomutt/account.txt`"
 set my_user = "przemek@pmtsoftware.eu"
 
-set folder      = imaps://s144.cyber-folks.pl:993/
+set folder      = imaps://mail.pmtsoftware.eu:993/
 set imap_user   = $my_user
 set imap_pass   = $my_pass
 set spoolfile   = +INBOX
@@ -16,7 +16,7 @@ set header_cache = ~/.cache/mutt
 set message_cachedir = "~/.cache/mutt"
 
 # Specify where to save and/or look for postponed messages.
-set postponed = +INBOX.Drafts
+set postponed = +Drafts
 
 # Allow Mutt to open a new IMAP connection automatically.
 unset imap_passive
@@ -31,11 +31,11 @@ set mail_check = 120
 set editor = "vim"
 
 # sending
-set record = +INBOX.Sent
+set record = +Sent
 set realname = "Przemek M"
 set from = "przemek@pmtsoftware.eu"
 set use_from = yes
 set smtp_pass = $my_pass
-set smtp_url = smtps://$my_user@s144.cyber-folks.pl:465
+set smtp_url = smtps://$my_user@mail.pmtsoftware.eu:465
 set ssl_force_tls = yes
 
