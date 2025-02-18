@@ -5,6 +5,8 @@ Plug 'rakr/vim-one'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'crusoexia/vim-monokai'
+
 Plug 'whonore/Coqtail' 
 
 Plug 'junegunn/fzf'
@@ -33,7 +35,7 @@ call plug#end()
 let g:airline_theme='one'
 
 set termguicolors
-colorscheme one
+colorscheme monokai
 set background=dark
 
 set nu " line numbers
